@@ -1,12 +1,18 @@
 import React from 'react';
 
+import Disclosure from './components/disclosure/disclosure';
 
-function App() {
+
+
+
+
+
+export default function App() {
   return (
-    <>
-      <h1>HELLOW WORLD</h1>
-    </>
+
+    <Disclosure />
+
   );
 }
 
-export default App;
+
